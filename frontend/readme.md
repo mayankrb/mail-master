@@ -1,2 +1,2 @@
-# frontend foe the app
+# frontend for the app
 
