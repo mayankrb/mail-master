@@ -47,12 +47,8 @@ cd frontend
 
 npm install
 
-cd ..
-
 
 ## 3. Build the frontend
-
-cd frontend
 
 npm run build
 
