@@ -5,7 +5,7 @@
   },
   "main": "main.js",
   "scripts": {
-    "package": "electron-packager . job-mailer --platform=win32 --arch=x64 --out=dist-electron --overwrite"
+    "package": "electron-packager . mail-master --platform=win32 --arch=x64 --out=dist-electron --overwrite"
   },
   "dependencies": {
     "cors": "^2.8.5",
