@@ -100,6 +100,7 @@ app.listen(PORT, () => {
 function createWindow() {
   const win = new BrowserWindow({
     show: false, // Don't show until it's ready to maximize
+    icon: path.join(__dirname, "assets", "mail-master.ico"), // ✅ Your icon here
     webPreferences: {
       nodeIntegration: false,
     },
@@ -115,7 +116,6 @@ function createWindow() {
     win.loadURL(`http://localhost:5555`);
     win.maximize(); // Maximize the window (with border + controls)
     win.show();
-    win.webContents.openDevTools();
   });
 }
 
